@@ -20,7 +20,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
         time.sleep(23)
 
 
-        time.sleep(60)
+        time.sleep(180)
 
         #user 1
         for user in tweepy.Cursor(api.friends, screen_name=user_1).items(5):
@@ -36,7 +36,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 time.sleep(5)
 
 
-        time.sleep(60)
+        time.sleep(180)
 
         
         for user in tweepy.Cursor(api.friends, screen_name=user_2).items(5):
@@ -51,7 +51,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 time.sleep(5)
 
 
-        time.sleep(60)
+        time.sleep(180)
 
 
         for user in tweepy.Cursor(api.friends, screen_name=user_3).items(5):
@@ -66,7 +66,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 time.sleep(5)
 
 
-        time.sleep(60)
+        time.sleep(180)
 
         for user in tweepy.Cursor(api.friends, screen_name=user_4).items(5):
             time.sleep(10)
@@ -80,7 +80,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 time.sleep(5)
 
 
-        time.sleep(60)
+        time.sleep(180)
 
 
         for user in tweepy.Cursor(api.friends, screen_name=user_5).items(5):
@@ -95,7 +95,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 time.sleep(5)
 
 
-        time.sleep(60)
+        time.sleep(180)
 
         
         for user in tweepy.Cursor(api.friends, screen_name=user_6).items(5):
@@ -111,7 +111,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
 
 
 
-        time.sleep(60)
+        time.sleep(180)
 
         for user in tweepy.Cursor(api.friends, screen_name=user_7).items(5):
             time.sleep(10)
@@ -125,7 +125,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 time.sleep(5)
 
 
-        time.sleep(60)
+        time.sleep(180)
 
         for user in tweepy.Cursor(api.friends, screen_name=user_8).items(5):
             time.sleep(10)
@@ -140,7 +140,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
 
 
 
-        time.sleep(60)
+        time.sleep(180)
 
 
         for user in tweepy.Cursor(api.friends, screen_name=user_9).items(5):
@@ -155,7 +155,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 time.sleep(5)
 
 
-        time.sleep(60)
+        time.sleep(180)
         #first 9
 
 
@@ -169,7 +169,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
                 time.sleep(5)
-        time.sleep(60)
+        time.sleep(180)
 
 
         for user in tweepy.Cursor(api.friends, screen_name=user_11).items(5):
@@ -182,7 +182,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
                 time.sleep(5)
-        time.sleep(60)
+        time.sleep(180)
 
 
 
@@ -289,7 +289,7 @@ time.sleep(40)
 
 
 recent_following_user11=[]
-user_11="poyimone"
+user_11="0xShual"
 for user in tweepy.Cursor(api.friends, screen_name=user_11).items(10):
     new_follower=str(user.screen_name)
     recent_following_user11.append(new_follower)
