@@ -104,7 +104,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
             latest_following = str(user.screen_name)
             if (latest_following not in recent_following_user6):
                 recent_following_user6.append(latest_following)
-                message=user_6+" just followed " + latest_following +" \nClick on this link to view the profile : https://twitter.com/"+latest_following
+                message="@neon_noise "+user_6+" just followed " + latest_following +" \nClick on this link to view the profile : https://twitter.com/"+latest_following
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
                 time.sleep(5)
