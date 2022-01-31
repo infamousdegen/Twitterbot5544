@@ -232,7 +232,7 @@ for user in tweepy.Cursor(api.friends, screen_name=user_1).items(10):
 time.sleep(40)
 
 recent_following_user2=[]
-user_2="Cryptik1E"
+user_2="poyimone"
 for user in tweepy.Cursor(api.friends, screen_name=user_2).items(10):
     new_follower=str(user.screen_name)
     recent_following_user2.append(new_follower)
