@@ -212,7 +212,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
             time.sleep(10)
             print("checking for new followings of "+user_12)
             latest_following = str(user.screen_name)
-            if (latest_following not in recent_following_user11):
+            if (latest_following not in recent_following_user12):
                 recent_following_user12.append(latest_following)
                 message=user_12+" just followed " + "https://twitter.com/"+latest_following
                 webhook = DiscordWebhook(url="https://discord.com/api/webhooks/937756263184466001/tXdqn3HAgvWOD9ewRBv3AbOXia1ORhWZ86qrXjZHvJb5QXra8WnAa4V4ol-gL1I3ihIo",content=message)
@@ -226,7 +226,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
             time.sleep(10)
             print("checking for new followings of "+user_13)
             latest_following = str(user.screen_name)
-            if (latest_following not in recent_following_user11):
+            if (latest_following not in recent_following_user13):
                 recent_following_user13.append(latest_following)
                 message=user_13+" just followed " + "https://twitter.com/"+latest_following
                 webhook = DiscordWebhook(url="https://discord.com/api/webhooks/937756263184466001/tXdqn3HAgvWOD9ewRBv3AbOXia1ORhWZ86qrXjZHvJb5QXra8WnAa4V4ol-gL1I3ihIo",content=message)
@@ -241,7 +241,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
             time.sleep(10)
             print("checking for new followings of "+user_14)
             latest_following = str(user.screen_name)
-            if (latest_following not in recent_following_user11):
+            if (latest_following not in recent_following_user14):
                 recent_following_user14.append(latest_following)
                 message=user_14+" just followed " + "https://twitter.com/"+latest_following
                 webhook = DiscordWebhook(url="https://discord.com/api/webhooks/937756263184466001/tXdqn3HAgvWOD9ewRBv3AbOXia1ORhWZ86qrXjZHvJb5QXra8WnAa4V4ol-gL1I3ihIo",content=message)
