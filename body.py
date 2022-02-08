@@ -382,7 +382,7 @@ user_14="@Ace_da_Book"
 for user in tweepy.Cursor(api.friends, screen_name=user_14).items(10):
     new_follower=str(user.screen_name)
     recent_following_user11.append(new_follower)
-time.sleep(40
+time.sleep(40)
 
 
 
