@@ -36,6 +36,8 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 response = webhook.execute()
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
+                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+                requests.get(base_url2)
                 time.sleep(5)
 
 
@@ -53,6 +55,8 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 response = webhook.execute()
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
+                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+                requests.get(base_url2)
                 time.sleep(5)
 
 
@@ -69,7 +73,9 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 webhook = DiscordWebhook(url="https://discord.com/api/webhooks/937756263184466001/tXdqn3HAgvWOD9ewRBv3AbOXia1ORhWZ86qrXjZHvJb5QXra8WnAa4V4ol-gL1I3ihIo",content=message)
                 response = webhook.execute()
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
-                requests.get(base_url)
+                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+                requests.get(base_url)                
+                requests.get(base_url2)
                 time.sleep(5)
 
 
@@ -86,6 +92,8 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 response = webhook.execute()
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
+                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+                requests.get(base_url2)
                 time.sleep(5)
 
 
@@ -103,6 +111,8 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 response = webhook.execute()
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
+                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+                requests.get(base_url2)
                 time.sleep(5)
 
 
@@ -120,6 +130,8 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 response = webhook.execute()
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
+                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+                requests.get(base_url2)
                 time.sleep(5)
 
 
@@ -137,6 +149,8 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 response = webhook.execute()
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
+                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+                requests.get(base_url2)
                 time.sleep(5)
 
 
@@ -153,6 +167,8 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 response = webhook.execute()
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
+                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+                requests.get(base_url2)
                 time.sleep(5)
 
 
@@ -171,6 +187,8 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 response = webhook.execute()
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
+                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+                requests.get(base_url2)
                 time.sleep(5)
 
 
@@ -189,6 +207,8 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 response = webhook.execute()
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
+                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+                requests.get(base_url2)
                 time.sleep(5)
         time.sleep(180)
 
@@ -204,6 +224,8 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 response = webhook.execute()
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
+                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+                requests.get(base_url2)
                 time.sleep(5)
         time.sleep(180)
 
@@ -219,6 +241,8 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 response = webhook.execute()
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
+                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+                requests.get(base_url2)
                 time.sleep(5)
         time.sleep(180)
         
@@ -233,6 +257,8 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 response = webhook.execute()
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
+                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+                requests.get(base_url2)
                 time.sleep(5)
         time.sleep(180)
         
@@ -248,6 +274,8 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 response = webhook.execute()
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
+                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+                requests.get(base_url2)
                 time.sleep(5)
         time.sleep(180)
 
