@@ -34,7 +34,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 message=user_1+" just followed " + "https://twitter.com/"+latest_following
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
-                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001679011206&text={}'.format(message)
                 requests.get(base_url2)
                 time.sleep(5)
 
@@ -51,7 +51,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 message=user_2+" just followed " + "https://twitter.com/"+latest_following
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
-                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001679011206&text={}'.format(message)
                 requests.get(base_url2)
                 time.sleep(5)
 
@@ -67,7 +67,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 recent_following_user3.append(latest_following)
                 message=user_3+" just followed " + " https://twitter.com/"+latest_following
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
-                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001679011206&text={}'.format(message)
                 requests.get(base_url)                
                 requests.get(base_url2)
                 time.sleep(5)
@@ -84,7 +84,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 message=user_4+" just followed " +"https://twitter.com/"+latest_following
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
-                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001679011206&text={}'.format(message)
                 requests.get(base_url2)
                 time.sleep(5)
 
@@ -101,7 +101,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 message=user_5+" just followed " + "https://twitter.com/"+latest_following
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
-                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001679011206&text={}'.format(message)
                 requests.get(base_url2)
                 time.sleep(5)
 
@@ -118,7 +118,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 message=user_6+" just followed " + "https://twitter.com/"+latest_following
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
-                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001679011206&text={}'.format(message)
                 requests.get(base_url2)
                 time.sleep(5)
 
@@ -135,7 +135,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 message=user_7+" just followed " +"https://twitter.com/"+latest_following
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
-                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001679011206&text={}'.format(message)
                 requests.get(base_url2)
                 time.sleep(5)
 
@@ -151,7 +151,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 message=user_8+" just followed " + "https://twitter.com/"+latest_following
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
-                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001679011206&text={}'.format(message)
                 requests.get(base_url2)
                 time.sleep(5)
 
@@ -169,7 +169,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 message=user_9+" just followed " + "https://twitter.com/"+latest_following
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
-                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001679011206&text={}'.format(message)
                 requests.get(base_url2)
                 time.sleep(5)
 
@@ -187,7 +187,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 message=user_10+" just followed " + "https://twitter.com/"+latest_following
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
-                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001679011206&text={}'.format(message)
                 requests.get(base_url2)
                 time.sleep(5)
         time.sleep(180)
@@ -202,7 +202,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 message=user_11+" just followed " + "https://twitter.com/"+latest_following
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
-                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001679011206&text={}'.format(message)
                 requests.get(base_url2)
                 time.sleep(5)
         time.sleep(180)
@@ -217,7 +217,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 message=user_12+" just followed " + "https://twitter.com/"+latest_following
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
-                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001679011206&text={}'.format(message)
                 requests.get(base_url2)
                 time.sleep(5)
         time.sleep(180)
@@ -231,7 +231,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 message=user_13+" just followed " + "https://twitter.com/"+latest_following
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
-                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001679011206&text={}'.format(message)
                 requests.get(base_url2)
                 time.sleep(5)
         time.sleep(180)
@@ -246,7 +246,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 message=user_14+" just followed " + "https://twitter.com/"+latest_following
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
-                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001679011206&text={}'.format(message)
                 requests.get(base_url2)
                 time.sleep(5)
         time.sleep(180)
