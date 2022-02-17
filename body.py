@@ -32,8 +32,6 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
                 recent_following_user1.append(latest_following)
                 print(latest_following + " is followed by " + user_1)
                 message=user_1+" just followed " + "https://twitter.com/"+latest_following
-                webhook = DiscordWebhook(url="https://discord.com/api/webhooks/937756263184466001/tXdqn3HAgvWOD9ewRBv3AbOXia1ORhWZ86qrXjZHvJb5QXra8WnAa4V4ol-gL1I3ihIo",content=message)
-                response = webhook.execute()
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
                 base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
@@ -51,8 +49,6 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
             if (latest_following not in recent_following_user2):
                 recent_following_user2.append(latest_following)
                 message=user_2+" just followed " + "https://twitter.com/"+latest_following
-                webhook = DiscordWebhook(url="https://discord.com/api/webhooks/937756263184466001/tXdqn3HAgvWOD9ewRBv3AbOXia1ORhWZ86qrXjZHvJb5QXra8WnAa4V4ol-gL1I3ihIo",content=message)
-                response = webhook.execute()
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
                 base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
@@ -70,8 +66,6 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
             if (latest_following not in recent_following_user3):
                 recent_following_user3.append(latest_following)
                 message=user_3+" just followed " + " https://twitter.com/"+latest_following
-                webhook = DiscordWebhook(url="https://discord.com/api/webhooks/937756263184466001/tXdqn3HAgvWOD9ewRBv3AbOXia1ORhWZ86qrXjZHvJb5QXra8WnAa4V4ol-gL1I3ihIo",content=message)
-                response = webhook.execute()
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)                
@@ -88,8 +82,6 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
             if (latest_following not in recent_following_user4):
                 recent_following_user4.append(latest_following)
                 message=user_4+" just followed " +"https://twitter.com/"+latest_following
-                webhook = DiscordWebhook(url="https://discord.com/api/webhooks/937756263184466001/tXdqn3HAgvWOD9ewRBv3AbOXia1ORhWZ86qrXjZHvJb5QXra8WnAa4V4ol-gL1I3ihIo",content=message)
-                response = webhook.execute()
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
                 base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
@@ -107,8 +99,6 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
             if (latest_following not in recent_following_user5):
                 recent_following_user5.append(latest_following)
                 message=user_5+" just followed " + "https://twitter.com/"+latest_following
-                webhook = DiscordWebhook(url="https://discord.com/api/webhooks/937756263184466001/tXdqn3HAgvWOD9ewRBv3AbOXia1ORhWZ86qrXjZHvJb5QXra8WnAa4V4ol-gL1I3ihIo",content=message)
-                response = webhook.execute()
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
                 base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
@@ -126,8 +116,6 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
             if (latest_following not in recent_following_user6):
                 recent_following_user6.append(latest_following)
                 message=user_6+" just followed " + "https://twitter.com/"+latest_following
-                webhook = DiscordWebhook(url="https://discord.com/api/webhooks/937756263184466001/tXdqn3HAgvWOD9ewRBv3AbOXia1ORhWZ86qrXjZHvJb5QXra8WnAa4V4ol-gL1I3ihIo",content=message)
-                response = webhook.execute()
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
                 base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
@@ -145,8 +133,6 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
             if (latest_following not in recent_following_user7):
                 recent_following_user7.append(latest_following)
                 message=user_7+" just followed " +"https://twitter.com/"+latest_following
-                webhook = DiscordWebhook(url="https://discord.com/api/webhooks/937756263184466001/tXdqn3HAgvWOD9ewRBv3AbOXia1ORhWZ86qrXjZHvJb5QXra8WnAa4V4ol-gL1I3ihIo",content=message)
-                response = webhook.execute()
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
                 base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
@@ -163,8 +149,6 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
             if (latest_following not in recent_following_user8):
                 recent_following_user8.append(latest_following)
                 message=user_8+" just followed " + "https://twitter.com/"+latest_following
-                webhook = DiscordWebhook(url="https://discord.com/api/webhooks/937756263184466001/tXdqn3HAgvWOD9ewRBv3AbOXia1ORhWZ86qrXjZHvJb5QXra8WnAa4V4ol-gL1I3ihIo",content=message)
-                response = webhook.execute()
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
                 base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
@@ -183,8 +167,6 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
             if (latest_following not in recent_following_user9):
                 recent_following_user9.append(latest_following)
                 message=user_9+" just followed " + "https://twitter.com/"+latest_following
-                webhook = DiscordWebhook(url="https://discord.com/api/webhooks/937756263184466001/tXdqn3HAgvWOD9ewRBv3AbOXia1ORhWZ86qrXjZHvJb5QXra8WnAa4V4ol-gL1I3ihIo",content=message)
-                response = webhook.execute()
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
                 base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
@@ -203,8 +185,6 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
             if (latest_following not in recent_following_user10):
                 recent_following_user10.append(latest_following)
                 message=user_10+" just followed " + "https://twitter.com/"+latest_following
-                webhook = DiscordWebhook(url="https://discord.com/api/webhooks/937756263184466001/tXdqn3HAgvWOD9ewRBv3AbOXia1ORhWZ86qrXjZHvJb5QXra8WnAa4V4ol-gL1I3ihIo",content=message)
-                response = webhook.execute()
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
                 base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
@@ -220,8 +200,6 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
             if (latest_following not in recent_following_user11):
                 recent_following_user11.append(latest_following)
                 message=user_11+" just followed " + "https://twitter.com/"+latest_following
-                webhook = DiscordWebhook(url="https://discord.com/api/webhooks/937756263184466001/tXdqn3HAgvWOD9ewRBv3AbOXia1ORhWZ86qrXjZHvJb5QXra8WnAa4V4ol-gL1I3ihIo",content=message)
-                response = webhook.execute()
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
                 base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
@@ -237,8 +215,6 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
             if (latest_following not in recent_following_user12):
                 recent_following_user12.append(latest_following)
                 message=user_12+" just followed " + "https://twitter.com/"+latest_following
-                webhook = DiscordWebhook(url="https://discord.com/api/webhooks/937756263184466001/tXdqn3HAgvWOD9ewRBv3AbOXia1ORhWZ86qrXjZHvJb5QXra8WnAa4V4ol-gL1I3ihIo",content=message)
-                response = webhook.execute()
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
                 base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
@@ -253,8 +229,6 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
             if (latest_following not in recent_following_user13):
                 recent_following_user13.append(latest_following)
                 message=user_13+" just followed " + "https://twitter.com/"+latest_following
-                webhook = DiscordWebhook(url="https://discord.com/api/webhooks/937756263184466001/tXdqn3HAgvWOD9ewRBv3AbOXia1ORhWZ86qrXjZHvJb5QXra8WnAa4V4ol-gL1I3ihIo",content=message)
-                response = webhook.execute()
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
                 base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
@@ -270,8 +244,6 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
             if (latest_following not in recent_following_user14):
                 recent_following_user14.append(latest_following)
                 message=user_14+" just followed " + "https://twitter.com/"+latest_following
-                webhook = DiscordWebhook(url="https://discord.com/api/webhooks/937756263184466001/tXdqn3HAgvWOD9ewRBv3AbOXia1ORhWZ86qrXjZHvJb5QXra8WnAa4V4ol-gL1I3ihIo",content=message)
-                response = webhook.execute()
                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
                 requests.get(base_url)
                 base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001180497796&text={}'.format(message)
