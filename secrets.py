@@ -1,5 +1,1 @@
-key = ['QDWjBYEUL2XGPP3dtkOysB2IG',
-      'Op5oaMsSaPZeV9s0BMfBDiJZz0dwJBSDzloBJPwVG9Bja0BDrO',
-      '1488209101746159617-Q13LS7VfZjiZdDXSoA37spTnJMMERF',
-      'hI0lruz89FjsFCkIrDmgfqz7fbDyTX9cMJchR0rocjTHU'
-]
+key = ['enter you twitter developer account keys here']
