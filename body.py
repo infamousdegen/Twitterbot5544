@@ -126,18 +126,18 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
 
         time.sleep(180)
 
-        for user in tweepy.Cursor(api.friends, screen_name=user_7).items(5):
-            time.sleep(10)
-            print("checking for new followings of "+user_7)
-            latest_following = str(user.screen_name)
-            if (latest_following not in recent_following_user7):
-                recent_following_user7.append(latest_following)
-                message=user_7+" just followed " +"https://twitter.com/"+latest_following
-                base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
-                requests.get(base_url)
-                base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001679011206&text={}'.format(message)
-                requests.get(base_url2)
-                time.sleep(5)
+#         for user in tweepy.Cursor(api.friends, screen_name=user_7).items(5):
+#             time.sleep(10)
+#             print("checking for new followings of "+user_7)
+#             latest_following = str(user.screen_name)
+#             if (latest_following not in recent_following_user7):
+#                 recent_following_user7.append(latest_following)
+#                 message=user_7+" just followed " +"https://twitter.com/"+latest_following
+#                 base_url='https://api.telegram.org/bot5230523338:AAG_rRN7sCWq29CulfA-6zfYnE2C-Ej-UDk/sendMessage?chat_id=-1001180497796&text={}'.format(message)
+#                 requests.get(base_url)
+#                 base_url2='https://api.telegram.org/bot5132351109:AAHolO_uuOj3uSq4e-W_77erZfTcSCdcrwo/sendMessage?chat_id=-1001679011206&text={}'.format(message)
+#                 requests.get(base_url2)
+#                 time.sleep(5)
 
 
         time.sleep(180)
