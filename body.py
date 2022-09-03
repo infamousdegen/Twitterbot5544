@@ -363,7 +363,7 @@ recent_following_user12=[]
 user_12="fomosaurus"
 for user in tweepy.Cursor(api.friends, screen_name=user_12).items(10):
     new_follower=str(user.screen_name)
-    recent_following_user11.append(new_follower)
+    recent_following_user12.append(new_follower)
 time.sleep(40)
 
 
@@ -371,14 +371,14 @@ recent_following_user13=[]
 user_13="wassiecapital"
 for user in tweepy.Cursor(api.friends, screen_name=user_13).items(10):
     new_follower=str(user.screen_name)
-    recent_following_user11.append(new_follower)
+    recent_following_user13.append(new_follower)
 time.sleep(40)
 
 recent_following_user14=[]
 user_14="Ace_da_Book"
 for user in tweepy.Cursor(api.friends, screen_name=user_14).items(10):
     new_follower=str(user.screen_name)
-    recent_following_user11.append(new_follower)
+    recent_following_user14.append(new_follower)
 time.sleep(40)
 
 
