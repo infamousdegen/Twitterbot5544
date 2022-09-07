@@ -252,7 +252,7 @@ def check_for_followers(api,recent_following_user1,user_1,recent_following_user2
         time.sleep(180)
         
         
-        for user in tweepy.Cursor(api.friends, screen_name=user_15).items(5)
+        for user in tweepy.Cursor(api.friends, screen_name=user_15).items(5):
             time.sleep(10)
             print("checking for new followings of "+user_15)
             latest_following = str(user.screen_name)
