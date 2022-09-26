@@ -13,7 +13,7 @@ from config import create_api
 api = create_api()
 
 
-def check_for_followers(api,recent_following_user1,user_1,recent_following_user2,user_2,recent_following_user3,user_3,recent_following_user4,user_4,recent_following_user5,user_5,recent_following_user6,user_6,recent_following_user7,user_7,recent_following_user8,user_8,recent_following_user10,user_10,recent_following_user11,user_11,recent_following_user12,user_12,recent_following_user13,user_13,recent_following_user14,user_14):
+def check_for_followers(api,recent_following_user1,user_1,recent_following_user2,user_2,recent_following_user3,user_3,recent_following_user4,user_4,recent_following_user5,user_5,recent_following_user6,user_6,recent_following_user7,user_7,recent_following_user8,user_8,recent_following_user10,user_10,recent_following_user11,user_11,recent_following_user12,user_12,recent_following_user13,user_13,recent_following_user14,user_14,recent_following_user15,user_15,recent_following_user16,user_16):
 
     while True:
 
